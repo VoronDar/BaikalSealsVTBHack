@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr format="color" name="main_color"/>
+    <attr format="color" name="background_color"/>
+    <attr format="color" name="text_color"/>
+    <attr format="color" name="ripple_color"/>
+    <attr format="color" name="error_color"/>
+
+    <attr format="color" name="text_view_color"/>
+    <attr format="color" name="important_text_color"/>
+    <attr format="color" name="edit_text_color"/>
+    <attr format="color" name="edit_text_error_color"/>
+    <attr format="color" name="hint_color"/>
+    <attr format="color" name="highLight_color"/>
+    <attr format="color" name="filter_text_color"/>
+
+
+    <attr format="color" name="icon_color"/>
+
+    <attr format="color" name="text_button_text_color"/>
+    <attr format="color" name="main_button_text_color"/>
+    <attr format="color" name="second_button_text_color"/>
+
+    <attr format="color" name="main_button_back_color"/>
+    <attr format="color" name="second_button_back_color"/>
+
+    <attr format="color" name="main_button_ripple_color"/>
+    <attr format="color" name="second_button_ripple_color"/>
+
+    <attr format="color" name="card_stroke_color"/>
+
+    <attr format="color" name="text_field_stroke_color"/>
+    <attr format="color" name="text_field_stroke_error_color"/>
+
+    <attr format="color" name="checkbox_color"/>
+
+
+    <attr format="color" name="back_color"/>
+    <attr format="color" name="filter_back_color"/>
+
+    <attr format="dimension" name = "text_size"/>
+    <attr format="dimension" name = "small_text_size"/>
+    <attr format="dimension" name = "highlight_text_size"/>
+    <attr format="dimension" name = "important_text_size"/>
+    <attr format="dimension" name = "form_align"/>
+
+</resources>

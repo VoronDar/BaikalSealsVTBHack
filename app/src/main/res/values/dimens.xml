@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">18dp</dimen>
+    <dimen name="small_text_size">14dp</dimen>
+    <dimen name="highlight_size">22dp</dimen>
+    <dimen name="button_text_size">16dp</dimen>
+    <dimen name="important_text_size">18dp</dimen>
+
+
+    <dimen name="button_corner">5dp</dimen>
+    <dimen name="button_padding_width">35dp</dimen>
+    <dimen name="button_padding_height">10dp</dimen>
+    <dimen name="button_elevation">8dp</dimen>
+    <dimen name="stroke_width">1dp</dimen>
+
+
+    <dimen name="card_corner_radius">5dp</dimen>
+
+    <dimen name="card_content_padding">25dp</dimen>
+    <dimen name="text_field_content_padding">10dp</dimen>
+
+    <dimen name="form_align">10dp</dimen>
+    <dimen name="form_sub_align">5dp</dimen>
+
+    <dimen name="checkbox_size">24dp</dimen>
+    <dimen name="image_unit_size">24dp</dimen>
+    <dimen name="icon_unit_size">48dp</dimen>
+    <dimen name="icon_padding">12dp</dimen>
+
+    <dimen name="item_content_padding">20dp</dimen>
+    <dimen name="item_content_align">30dp</dimen>
+    <dimen name="item_align">10dp</dimen>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="70dp"
+    android:src ="@drawable/picture_end"
+    android:layout_gravity="center"
+    />
+    <TextView
+        android:id = "@+id/message"
+        style="@style/HighLightText"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text = "Это потрясающий результат, которого вы можете достичь в реальной жизни!"
+        />
+
+    <TextView
+        android:id = "@+id/description"
+        style="@style/text"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text = "Совершили 40 сделок, получив $458960.90 прибыли"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+    <Button
+        style="@style/mainButton"
+        android:id = "@+id/button"
+        android:layout_margin="20dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text = "Далее"
+        />
+        <com.google.android.material.card.MaterialCardView
+            android:id = "@+id/share"
+            app:strokeColor="@color/main_color"
+            app:strokeWidth="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="10dp"
+                android:src = "@drawable/ic_share"
+
+                />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

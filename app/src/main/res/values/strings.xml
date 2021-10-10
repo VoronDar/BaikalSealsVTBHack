@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">VTB</string>
+
+    <string name="life_item_category_house">Жилье</string>
+    <string name="life_item_category_family">Семья</string>
+
+
+    <string name="life_item_house_0">Гараж</string>
+    <string name="life_item_house_1">Съемная однушка</string>
+    <string name="life_item_house_2">Двушка в ипотеку</string>
+    <string name="life_item_house_3">Пентхаус</string>
+
+    <string name="life_item_family_0">Одинокий</string>
+    <string name="life_item_family_1">Девушка</string>
+    <string name="life_item_family_2">Жена</string>
+    <string name="life_item_family_3">Неработающая жена</string>
+
+
+    <string name="title_select_difficulty">Выберите уровень сложности</string>
+
+
+    <string name="difficulty_0">Хранитель</string>
+    <string name="difficulty_1">Акционер</string>
+    <string name="difficulty_2">Инвестор</string>
+
+    <string name="difficulty_description_0">Вы только начинаете работать с биржей. У вас небольшой капитал, а вкладывать вы можете только в варианты с наименьшим риском. Прекрасный вариант для тех, кто никогда не покупал ценные бумаги и в целом не знаком с биржей.</string>
+    <string name="difficulty_description_1">Уже получил первый опыт работы с биржей, осознаёт риски и преимущества акций </string>
+    <string name="difficulty_description_2">Опытный игрокна бирже, знает правила риск менеджмента и аналитики и работает с бумагами срочного рынка</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <include layout="@layout/page_logo"/>
+
+    <TextView
+        style="@style/HighLightText"
+        android:text = "@string/title_select_difficulty"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:weightSum="3"
+        >
+        <include
+            android:id = "@+id/first"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout="@layout/unit_select_level" />
+        <include
+            android:id = "@+id/second"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout="@layout/unit_select_level" />
+        <include
+            android:id = "@+id/third"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            layout="@layout/unit_select_level" />
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/card"
+        android:id = "@+id/card"
+        android:layout_marginBottom="20dp"
+        >
+        <LinearLayout
+            style="@style/cardContent">
+    <TextView
+        style="@style/HighLightText"
+        android:id = "@+id/difficulty_name"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/difficulty_icon"
+            />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:id = "@+id/difficulty_description"
+        style="@style/text" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <Button
+        style="@style/secondButton"
+        android:layout_width="match_parent"
+        android:id = "@+id/next"
+        android:text = "Далее"
+        />
+
+</LinearLayout>

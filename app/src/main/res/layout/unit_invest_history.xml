@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        style="@style/text"
+        android:text = "asdasdassdasd"
+        android:layout_marginTop="20dp"
+        android:id = "@+id/iteration"
+        android:visibility="gone"
+        android:textColor="#B7B7B7"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+<com.google.android.material.card.MaterialCardView style="@style/card"
+    android:layout_width="match_parent"
+    app:strokeWidth="1dp"
+    android:id = "@+id/opened"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding = "@dimen/card_content_padding"
+        >
+
+        <TextView
+            android:id = "@+id/text"
+            style="@style/important_text"
+            android:text = "Покупка:Золото"
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/text"
+                    android:text = "Количество"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/small_text_size"
+                    />
+                <TextView
+                    style="@style/text"
+                    android:layout_gravity="center"
+                    android:text = "202323"
+                    android:id = "@+id/count"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/medium"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/text"
+                    android:text = "Цена"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/small_text_size"
+                    />
+                <TextView
+                    style="@style/text"
+                    android:id = "@+id/price"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:text = "202323"
+                    android:fontFamily="@font/medium"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/text"
+                    android:textAlignment="center"
+                    android:text = "Текущая цена"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/small_text_size"
+                    />
+                <TextView
+                    style="@style/text"
+                    android:layout_gravity="center"
+                    android:text = "202323"
+                    android:textAlignment="center"
+                    android:id = "@+id/now_price"
+                    android:fontFamily="@font/medium"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

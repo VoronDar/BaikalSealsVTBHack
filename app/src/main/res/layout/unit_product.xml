@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+<com.google.android.material.card.MaterialCardView style="@style/card"
+    android:layout_width="match_parent"
+    app:strokeWidth="1dp"
+    android:id = "@+id/closed"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding = "@dimen/card_content_padding"
+        >
+
+        <TextView
+            android:id = "@+id/text"
+            style="@style/important_text"
+            android:text = "Золото"
+            android:textSize="22dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:id = "@+id/price"
+                android:fontFamily="@font/medium"
+                android:text = "2213.40"
+                />
+            <TextView
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:id = "@+id/difference"
+                android:textAlignment="center"
+                android:textColor="#7AA483"
+                android:fontFamily="@font/medium"
+                android:textSize="@dimen/small_text_size"
+                android:text = "2213.40"
+                />
+            <TextView
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:id = "@+id/old"
+                android:textColor="#7AA483"
+                android:fontFamily="@font/medium"
+                android:text = "2213.40"
+                />
+        </LinearLayout>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src = "@drawable/ic_indicator_high"
+                android:id = "@+id/indicator"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+
+<include
+    android:id = "@+id/opened"
+    android:visibility="gone"
+    layout="@layout/unit_opened_product"/>
+</LinearLayout>

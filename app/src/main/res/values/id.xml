@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textField" type="id"/>
+    <item name="errorInfo" type="id"/>
+    <item name="error" type="id"/>
+    <item name="title_holder" type="id"/>
+    <item name="form" type="id"/>
+    <item name="extra_holder" type="id"/>
+    <item name="image" type="id"/>
+</resources>

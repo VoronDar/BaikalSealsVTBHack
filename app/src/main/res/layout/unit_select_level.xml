@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id = "@+id/container"
+    android:layout_margin="5dp"
+    style="@style/card">
+
+    <LinearLayout
+        style="@style/cardContent"
+        android:gravity="center"
+        android:padding = "10dp"
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:id = "@+id/image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="5:4"
+        android:layout_width="wrap_content"
+        android:src = "@drawable/difficulty_0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:id = "@+id/text"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:text = ""/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
